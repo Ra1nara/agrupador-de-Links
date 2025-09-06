@@ -11,3 +11,5 @@ function toggleMode() {
   }
 }
 
+// ano automático
+document.getElementById("year").textContent = new Date().getFullYear()

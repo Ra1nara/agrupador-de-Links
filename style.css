@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+main {
+  height: 100%;
+}
 
 :root {
   --text-color: white;
@@ -48,7 +51,7 @@ body * {
 
 #profile img {
   width: 112px;
-  height:112px;
+  height: 112px;
   border-radius: 50%;
   object-fit: cover;
 }
